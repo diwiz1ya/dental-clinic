@@ -52,6 +52,7 @@ export default function Header() {
             <a href="#reviews" className="text-gray-700 hover:text-blue-700 font-medium">Отзывы</a>
             <Link to="/price" className="text-gray-700 hover:text-blue-700 font-medium">Прайс</Link>
             <Link to="/licenses" className="text-gray-700 hover:text-blue-700 font-medium">Лицензии</Link>
+            <Link to="/vacancies" className="text-gray-700 hover:text-blue-700 font-medium">Вакансии</Link>
             <Link to="/contact" className="text-gray-700 hover:text-blue-700 font-medium">Контакты</Link>
           </nav>
 
@@ -82,6 +83,7 @@ export default function Header() {
           <a href="#reviews" className="block text-gray-700 hover:text-blue-700" onClick={() => setMobileMenuOpen(false)}>Отзывы</a>
           <Link to="/price" className="block text-gray-700 hover:text-blue-700" onClick={() => setMobileMenuOpen(false)}>Прайс</Link>
           <Link to="/licenses" className="block text-gray-700 hover:text-blue-700" onClick={() => setMobileMenuOpen(false)}>Лицензии</Link>
+          <Link to="/vacancies" className="block text-gray-700 hover:text-blue-700" onClick={() => setMobileMenuOpen(false)}>Вакансии</Link>
           <Link to="/contact" className="block text-gray-700 hover:text-blue-700" onClick={() => setMobileMenuOpen(false)}>Контакты</Link>
           <a href="#contact" className="block text-center mt-2 px-4 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 text-white font-bold" onClick={() => setMobileMenuOpen(false)}>Записаться</a>
         </div>

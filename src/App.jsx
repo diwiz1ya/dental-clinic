@@ -14,6 +14,7 @@ import Doctors from "./components/Doctors";
 import Price from "./pages/Price";
 import Licenses from "./pages/Licenses";
 import ContactPage from "./pages/Contact";
+import Vacancies from "./pages/Vacancies";
 
 // Блок «Контакты и запись»
 function ContactSection() {
@@ -146,6 +147,7 @@ export default function App() {
           <Route path="/" element={<MainPage />} />
           <Route path="/price" element={<Price />} />
           <Route path="/licenses" element={<Licenses />} />
+          <Route path="/vacancies" element={<Vacancies />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
         <Footer />

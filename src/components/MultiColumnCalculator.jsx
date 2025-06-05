@@ -72,7 +72,7 @@ export default function MultiColumnCalculator() {
   <img
     src="/proze.png"
     alt="Протез"
-    className="absolute bottom-0 left-1/2 -translate-x-1/2 w-52 opacity-95 drop-shadow-xl pointer-events-none"
+    className="absolute bottom-6 left-1/2 -translate-x-1/2 w-52 opacity-95 drop-shadow-xl pointer-events-none"
   />
 
   {extendedPriceData.map((cat) => (
